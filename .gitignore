@@ -158,6 +158,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*.env
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
 
 # Conda environments
 conda-meta/
@@ -221,3 +226,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo (Windows / macOS)
+.DS_Store
+Thumbs.db
+desktop.ini
